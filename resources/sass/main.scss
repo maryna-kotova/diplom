@@ -1,0 +1,30 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+img{
+   max-width: 100%;
+}
+
+.all{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 100%;
+   min-height: 100vh;
+   height: auto;
+   font-family: $font-family-noto;
+   background-color: $body-bg;
+   color: $text-color;
+}
+
+.container{
+   flex-grow: 1;
+   padding: 5rem 0;
+}
+
+.title{   
+   font-weight: 700;
+}

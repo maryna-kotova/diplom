@@ -1,0 +1,54 @@
+.posts {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+
+   &__button {
+      margin: 1rem;
+      width: 30%;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 1px 1px 20px #cfcfcf;
+      &:hover{
+         text-decoration: none;  
+         box-shadow: 1px 1px 20px #858585;       
+      }
+   }
+
+   &__icon {      
+   }
+
+   &__info {      
+      padding: 1rem;
+   }
+
+   &__text {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: $text-color;
+   }
+}
+
+.article {
+
+   &__img {
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+      width: 80%;  
+      height: 20rem;    
+      border-radius: 15px;
+      overflow: hidden;     
+   }
+
+   &__title {
+      padding: 2rem 0;
+      text-align: center;
+   }
+
+   &__content {      
+      white-space: pre-wrap;      
+   }
+}
+

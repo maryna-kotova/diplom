@@ -1,0 +1,52 @@
+.nav-icon{
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 2rem;
+   color: $text-color;
+   span{
+      text-transform: none;            
+   }   
+   .nav-logo{
+      font-size: 2rem;
+      line-height: 2rem;   
+      color: $green;
+   }
+   &:hover{      
+      .nav-logo{
+         font-size: 2rem;
+         line-height: 2rem;
+         color: $green;         
+      }
+   }
+}
+.nav-circle{     
+   a{
+      display: block;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background-color: $green;
+   }
+}
+.item-center{
+   display: flex;
+   justify-content: center;
+   align-items: center;  
+} 
+.main-menu{
+   .nav-item{      
+      padding: 0 1rem;
+   }   
+   .nav-link{
+      font-weight: 600;
+      font-size: 1.2rem; 
+      text-transform: uppercase;
+      border-bottom: 3px solid $body-bg;
+      &:hover{
+         border-bottom: 3px solid $green;
+         color: $green !important;      
+      }   
+   }
+}
+
+

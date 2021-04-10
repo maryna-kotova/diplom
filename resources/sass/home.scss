@@ -1,0 +1,45 @@
+.home {
+
+   &__top {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      @media (max-width: 992px){
+         display: block;
+      }
+      .top {                 
+
+         &__title {
+            font-size: 3rem;
+            font-weight: 900;
+            @media (max-width: 1200px){
+               font-size: 2.5rem;
+            }
+            @media (max-width: 767px){
+               font-size: 2rem;
+            }
+         }
+      
+         &__endtitle {
+            font-size: 1.80rem;
+         }
+         @media (max-width: 992px){
+            text-align: center;
+         } 
+      }
+   }
+
+   &__img {
+      @media (max-width: 992px){
+         display: none;
+      }
+   }
+}
+
+
+
+
+
+
+
+

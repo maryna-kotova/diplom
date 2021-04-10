@@ -19,8 +19,7 @@ class CreateArticlesTable extends Migration
             $table->text('description')->nullable();
             $table->text('content')->nullable();
             $table->string('img')->nullable();                      
-            $table->string('slug')->unique();
-            $table->boolean('recommended')->default(0);
+            $table->string('slug')->unique();            
             $table->timestamps();
             $table->unsignedBigInteger('category_id')->nullable();
             $table->foreign('category_id')->references('id')->on('categories')->onDelete('set null');            

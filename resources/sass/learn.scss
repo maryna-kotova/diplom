@@ -1,0 +1,49 @@
+.onboarding {
+   display: flex;
+   flex-flow: row wrap;
+   align-items: center;
+   justify-content: center;
+   margin: 0 auto;  
+   max-width: 900px;
+   padding: 2rem;
+
+   &__button {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;      
+      margin: 16px 12px;
+      padding: 20px;
+      width: 174px;
+      height: 196px;
+      background: hsl(0, 0%, 100%);
+      border: 1.8px solid #dce2e5;       
+      border-radius: 7px;  
+      color: $text-color;
+      &:hover{         
+         text-decoration: none;
+         border: 1.8px solid $green; 
+         color: $green;        
+      }         
+   }
+
+   &__icon {  
+      height: 72px;
+      width: 72px;
+      margin: 0 auto;
+      img{
+         border-radius: 100px;
+         box-shadow: 0 1px 0 rgb(107 127 153 / 50%);
+      }       
+   }
+
+   &__info {      
+      padding: 1rem 0;    
+   }
+
+   &__text {
+      margin: 0;
+      text-align: center;      
+   }
+}
+
+

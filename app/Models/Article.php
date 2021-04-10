@@ -13,4 +13,9 @@ class Article extends Model
     {
         return $this->belongsTo(Category::class, 'category_id', 'id', 'id');
     }
+
+    public function reviews()
+    {
+        return  $this->hasMany(Review::class);
+    }
 }
