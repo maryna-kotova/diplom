@@ -13,6 +13,12 @@
          text-decoration: none;  
          box-shadow: 1px 1px 20px #858585;       
       }
+      @media (max-width: 992px){
+         width: 50%;
+      }
+      @media (max-width: 768px){
+         width: 90%;
+      }
    }
 
    &__icon {      

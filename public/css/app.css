@@ -10075,7 +10075,7 @@ img {
 
 .container {
   flex-grow: 1;
-  padding: 5rem 0;
+  padding: 5rem 1.5rem;
 }
 
 .title {
@@ -10286,6 +10286,16 @@ img {
 .posts__button:hover {
   text-decoration: none;
   box-shadow: 1px 1px 20px #858585;
+}
+@media (max-width: 992px) {
+  .posts__button {
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .posts__button {
+    width: 90%;
+  }
 }
 .posts__info {
   padding: 1rem;
